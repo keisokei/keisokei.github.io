@@ -1,35 +1,69 @@
-body {
-    margin: 0;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 
-.sidenav {
-    height: 100%;
-    width: 210px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-}
+  body {
+      margin: 0;
+      font-size: 20px;
+      font-family: 'Red Hat Display', sans-serif;
+  }
 
+  h1 {
+      margin-left: 20px;
+  }
 
-.sidenav a {
-    color: white;
-    padding: 16px;
-    text-decoration: none;
-    display: block;
-}
+  .p1 {
+      font-size: 18;
+      margin-left: 20px;
+      font-family: 'Red Hat Display', sans-serif;
+      color: rgb(40, 40, 40);
 
-.sidenav a:hover {
-    background-color: rgb(49, 43, 43);
-    color: white;
-    font-size: 19px;
-}
+  }
 
-.content {
-    margin-left: 210px;
-    padding-left: 20px;
-}
+  header {
+      font-size: 40px;
+      padding: 20px;
+      color: white;
+      background-color: rgb(8, 8, 74);
+      text-align: center;
+      font-weight: bold;
+  }
+
+  .sidenav {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(8, 8, 74);
+  }
+
+  .links {
+      color: rgb(21, 70, 101);
+      font-size: 20px;
+      font-family: 'Red Hat Display', sans-serif;
+  }
+
+  .sidenav a {
+      color: white;
+      padding: 20px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .selectednav {
+      background-color: rgb(20, 19, 117);
+      color: white;
+      font-size: 21px;
+
+  }
+
+  .sidenav a:hover {
+      background-color: rgb(20, 19, 117);
+      color: white;
+      font-size: 21px;
+  }
+
+  .content {
+      margin-left: 200px;
+      padding-left: 0px;
+  }
