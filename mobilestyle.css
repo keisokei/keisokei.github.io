@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+    margin-left: 20px;
+    color: black;
+    font-size: 25px;
+}
+
+.p1 {
+    font-size: 15px;
+    margin-left: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(20, 20, 20);
+
+}
+
+header {
+    font-size: 25px;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 1.7%;
+    padding-bottom: 1.7%;
+    color: white;
+    background-color: rgb(8, 8, 74);
+    text-align:center;
+    font-weight: bold;
+}
+
+.sidenav {
+    height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(8, 8, 74);
+}
+
+.links {
+    color: rgb(60, 168, 235);
+    font-size: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.sidenav a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.selectednav {
+    background-color: rgb(20, 19, 117);
+    color: white;
+    font-size: 2.1%vw;
+
+}
+
+.sidenav a:hover {
+    background-color: rgb(20, 19, 117);
+    color: white;
+    font-size: 21px;
+}
+
+.content {
+    margin-left: 0px;
+    padding-left: 0px;
+}
