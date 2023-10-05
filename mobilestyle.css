@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 
 body {
-    margin: 0;
+    margin: 0px;
     font-size: 20px;
     font-family: 'Red Hat Display', sans-serif;
 }
@@ -15,6 +15,7 @@ h1 {
 .p1 {
     font-size: 15px;
     margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Red Hat Display', sans-serif;
     color: rgb(20, 20, 20);
 
@@ -24,24 +25,13 @@ header {
     font-size: 25px;
     height: auto;
     width: 100%;
-    margin-top: 50px;
-    padding-top: 1.7%;
-    padding-bottom: 1.7%;
+    margin-top: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
     color: white;
     background-color: rgb(8, 8, 74);
-    text-align:center;
+    text-align: center;
     font-weight: bold;
-}
-
-.sidenav {
-    height: 50px;
-    width: 100%;
-    margin-top: 0px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(8, 8, 74);
 }
 
 .links {
@@ -50,27 +40,32 @@ header {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-.sidenav a {
-    color: white;
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-}
-
-.selectednav {
-    background-color: rgb(20, 19, 117);
-    color: white;
-    font-size: 2.1%vw;
-
-}
-
-.sidenav a:hover {
-    background-color: rgb(20, 19, 117);
-    color: white;
-    font-size: 21px;
-}
-
 .content {
     margin-left: 0px;
     padding-left: 0px;
+}
+
+.topnav {
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(8, 8, 74);
+}
+
+.topnav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(13, 39, 124);
+    color: white;
+}
+
+.topnav a.active {
+    background-color: rgb(13, 39, 124);
+    color: white;
 }
