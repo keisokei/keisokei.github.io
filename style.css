@@ -7,13 +7,14 @@
   }
 
   h1 {
-      margin-left: 20px;
+      margin-left: 50px;
+      margin-top: 50px;
       color: black;
   }
 
   .p1 {
       font-size: 18;
-      margin-left: 20px;
+      margin-left: 50px;
       font-family: 'Red Hat Display', sans-serif;
       color: rgb(20, 20, 20);
 
@@ -33,7 +34,7 @@
 
   .sidenav {
       height: 100%;
-      width: auto;
+      width: 130px;
       position: fixed;
       z-index: 1;
       top: 0;
