@@ -12,16 +12,16 @@ h1 {
     font-size: 25px;
 }
 
+.buttons {
+    align-items: center;
+}
+
 .p1 {
     font-size: 21px;
     margin-left: 20%;
     margin-right: 20%;
     font-family: 'Red Hat Display', sans-serif;
     color: rgb(20, 20, 20);
-
-}
-
-img {
 
 }
 
@@ -48,6 +48,62 @@ header {
     margin-left: 0px;
     padding-left: 0px;
 }
+
+/* napit */
+.container-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button1 {
+    appearance: button;
+    background-color: rgb(90, 90, 90);
+    border: 0px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    line-height: 1.15;
+    overflow: visible;
+    padding: 12px 16px;
+    text-align: center;
+    text-transform: none;
+    transition: all 80ms ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.button1:disabled {
+    opacity: .5;
+}
+
+.button1:focus {
+    outline: 0;
+}
+
+.button1:hover {
+    background-color: rgb(60, 168, 235);
+    border-color: rgb(60, 168, 235);
+}
+
+.button1:active {
+    background-color: rgb(60, 168, 235);
+    border-color: rgb(60, 168, 235);
+}
+
 
 .topnav {
     overflow: hidden;
