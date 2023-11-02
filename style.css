@@ -129,3 +129,11 @@ header {
     background-color: rgb(13, 39, 124);
     color: white;
 }
+
+
+img {
+    max-width: 15%;
+    display: block;
+    margin-left: 60%;
+    margin-right: auto;
+}
